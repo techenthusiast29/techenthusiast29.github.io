@@ -1,11 +1,21 @@
+/*General*/
+p, a, h1, h2, h3, li {
+    font-family: "Segoe UI",Arial,sans-serif,'Open Sans', sans-serif;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI",Arial,sans-serif; 
+}
+
+/*LeftSide*/
 .row {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-/*    flex-wrap: wrap;*/
     
 }
-
 
 .row .col-2t {
     width: 100%;
@@ -37,8 +47,7 @@
     
 }
 
-/*Right*/
-
+/*RightSide*/
 .row .col-2t .right-col {
     background: #fff;
     margin: 0px;
@@ -64,8 +73,7 @@
 .row .col-2t .topright {
     
     display: flex;
-    font-size: 1em;
-        
+    font-size: 1em;    
     
 }
 
@@ -97,17 +105,13 @@ button.white.edge:hover{
 
 button.white.edge{
     border-radius: 100px;
-    box-shadow: none;
     cursor: pointer;
     font-size: 14px;
     font-weight: bold;
     line-height: 30px;
     padding: 6px 16px;
-    position: relative;
     text-align: center;
-    white-space: nowrap;
     display: inline-block;
-    
     margin-right: auto;
     background-color: #fff;
     border: 1px solid #1da1f2;
@@ -125,24 +129,18 @@ button.size {
 button.blue {
     background: #00acee;
     color: #fff;
-
 }
 
 button.white {
     background: #fff;
-    color: #00acee;
-    
+    color: #00acee;   
 }
 
 input[type="text"] {
-    justify-content: center;
-    min-width: 50px;
-
     box-sizing: border-box;
     margin-top: 12px;
     padding: 12px;
     width: 210px;
-/*    transition: background .2s linear;*/
     display: inline-block;
     margin: 0;
     outline: 0;
@@ -154,9 +152,6 @@ input[type="text"] {
 }
 
 input[type="password"] {
-    min-width: 100px;
-
-    box-sizing: border-box;
     margin-top: 12px;
     padding: 12px;
     width: 210px;
@@ -168,40 +163,17 @@ input[type="password"] {
     border-radius: 3px;
     font-size: 14px;
     line-height: 20px;
-    text-rendering: auto;
-    color: initial;
-    letter-spacing: normal;
-    word-spacing: normal;
-    text-transform: none;
-    text-indent: 0px;
-    text-shadow: none;
     display: inline-block;
     text-align: start;
     cursor: text;
 }
 
-* {
-    box-sizing: border-box;
-}
-
-body, html {
-    margin: 0;
-    padding: 0;
-    font-family: "Segoe UI",Arial,sans-serif;
-    
-}
-
-p, a, h1, h2, h3, li {
-    font-family: "Segoe UI",Arial,sans-serif,'Open Sans', sans-serif;
-}
-
-
+/*Footer*/
 .footer.bottom {
     background: #fff;
     color: #aab8c2;
     border-top: .02px solid #aab8c2;
 }
-
 
 nav{
     width: 100%;
@@ -212,8 +184,7 @@ nav ul{
     overflow: hidden;
     margin: auto;
     margin-left: 190px;
-    padding: 0;
-    
+    padding: 0;    
 }
 
 ul.footnav li{
@@ -245,13 +216,13 @@ ul.footnav li a:hover{
 }
 
 .wmk p {
-  position: absolute;
-  top: 0;
-  left: -60%;
-  color: #fff;
-  font-size: 125px;
-   margin: 0px;
-   transform: rotate(-45deg);
+    position: absolute;
+    top: 0;
+    left: -60%;
+    color: #fff;
+    font-size: 125px;
+    margin: 0px;
+    transform: rotate(-45deg);
     max-height: 0%;
     max-width: 10%;
     line-height: 1.5em;
@@ -267,17 +238,16 @@ ul.footnav li a:hover{
   overflow: hidden;   
 }
 .wmkR p {
-  position: absolute;
-  top: 0;
-  left: -30%;
-  color: #fff;
-  font-size: 150px;
-   margin: 0px;
-   transform: rotate(-45deg);
+    position: absolute;
+    top: 0;
+    left: -30%;
+    color: #fff;
+    font-size: 150px;
+    margin: 0px;
+    transform: rotate(-45deg);
     max-height: 0%;
     max-width: 10%;
     line-height: 1.5em;
     letter-spacing: 5px;
     opacity: 0.3
 }
-
