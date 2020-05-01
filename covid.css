@@ -1,0 +1,430 @@
+body {
+/*
+    background-image: url(https://polarisdigitech.net/wp-content/uploads/2014/07/osun.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+*/
+
+}
+
+.container {
+    background-color: #fbfbfb;
+    box-shadow: 3px 5px 3px black;
+    margin: 10px 200px;
+}
+
+.image {
+    height: 100px;
+    width: 100px;
+}
+.headline {
+    padding-left: 398px;
+    padding-right: 20px;
+}
+
+.headline .h1 {
+    margin-top: -30px;
+}
+
+.headline .h2 {
+    margin-top: -20px;
+    font-family: Tangerine;
+    font-size: 1.5em;
+}
+
+.home {
+    margin: 0px 200px;
+    text-decoration: none;
+    background: linear-gradient(to right, #8B0000, #006400, #FFD700, #000);
+    color: #fff;
+    padding: 0px 0px;
+}
+
+
+    a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+    a:hover {
+    text-decoration: none;
+    background-color: #fff;
+    padding: 20px 20px;
+    color: #000;
+}
+
+.container-2 {
+    background-color: #fcfcfc;
+    box-shadow: 3px 5px 3px black;
+    margin: 10px 200px ;
+}
+
+h1 {
+    color: #fff;
+    text-shadow: 2px 2px 3px black;
+}
+
+h2 {
+    text-shadow: 1px 1px 3px grey;
+}
+
+.borderFrame {
+    border: 5px solid red;
+    width: 560px;
+    height: 315px;
+}
+
+ .confirmed {
+                width: 320px;
+                height: 20px;
+                font-size: 25px;
+                margin: 2px;
+                background: linear-gradient(to right, #ffff00, #ffd700, #ffff00);
+                border: none;
+                color: #000;
+                border-radius: 10px;
+                text-align: center;
+            }
+ .discharged {
+                width: 320px;
+                height: 20px;
+                font-size: 25px;
+                margin: 2px;
+                background: linear-gradient(to right, #006400, #003300, #006400);
+                border: none;
+                color: white;
+                border-radius: 10px;
+                text-align: center;
+            }
+ .active {
+                width: 320px;
+                height: 20px;
+                font-size: 25px;
+                margin: 2px;
+                background: linear-gradient(to right, #808080, #1a1a1a, #808080);
+                border: none;
+                color: white;
+                border-radius: 10px;
+                text-align: center;
+            }
+
+  .death {
+                width: 320px;
+                height: 20px;
+                font-size: 25px;
+                margin: 2px;
+                background: linear-gradient(to right, #ff3333, #e60000, #ff3333);
+                border: none;
+                color: white;
+                border-radius: 10px;
+                text-align: center;
+            }
+    .footer.bottom {
+    background: linear-gradient(to right, #8B0000, #006400, #FFD700, #000);
+    color: #fff;
+    border-top: .02px solid #aab8c2;
+    height: 150px;
+}
+
+foot {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+.footImg {
+    width: 145px;
+    height: 145px;
+}
+
+.footImg2 {
+    width: 290px;
+    height: 145px;
+}
+
+.footInfo {
+    padding-left: 55px;
+    padding-right: 55px;
+    font-family: Poiret One;
+    font-size: 24px;
+    line-height: 0.2em;
+    padding-bottom: 15px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.row::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.col-1 {
+    width: 50%;
+}
+
+.col-3 {
+    width: 33.33%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+[class*=col-] {
+    padding: 15px;
+}
+
+nav {
+    display: block;
+}
+
+/*********NAV*********/
+nav {
+    width: 100%; 
+}
+nav ul {
+    overflow: hidden;  
+}
+
+ul.topnav li {
+    list-style: none;
+    float: left;
+}
+
+ul.topnav li.topnav-right {
+    float: right;
+}
+
+ul.topnav li a {
+    min-height: 16px;
+    display: block;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+}
+
+ul.topnav li a:hover {
+    background-color: #ffffff;
+}
+
+ul.topnav li.dropdownIcon {
+    display: none;
+}
+
+
+/*#####MEDIA#####*/
+@media screen and (max-width: 680px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    ul.topnav li:not(:nth-child(1)) {
+        display: none;
+    }
+    
+    ul.topnav li.dropdownIcon {
+        display: block;
+        float: right;
+    }
+    
+    ul.topnav.responsive li.dropdownIcon {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    ul.topnav.responsive {
+        position: relative; 
+    }
+    
+    ul.topnav.responsive li {
+        display: inline;
+        float: none;
+    }
+    
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+    }
+    
+.container {
+    background-color: #fbfbfb;
+    box-shadow: 3px 5px 3px black;
+    margin: 0px 0px;
+    width: 100%;
+}
+    
+.image {
+    height: 70px;
+    width: 70px;
+}
+    
+.headline {
+    padding-left: 6px;
+    padding-right: 10px;
+}
+    
+.headline .h1 {
+    margin-top: -40px;
+    font-size: 1.2em
+}
+
+.headline .h2 {
+    margin-top: -5px;
+    font-family: Tangerine;
+    font-size: 1em;
+}
+
+.home {
+    margin: 0px;
+    text-decoration: none;
+    background: linear-gradient(to right, #8B0000, #006400, #FFD700, #000);
+    color: #fff;
+    padding: 0px 0px;
+}
+    
+.container-2 {
+    background-color: #fcfcfc;
+    box-shadow: 3px 5px 3px black;
+    margin: 0px;
+}
+    
+.row {
+    display: block;
+    width: 100%;
+}
+
+.row::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.col-1 {
+    width: 100%;
+}
+
+.col-3 {
+    width: 100%;
+}
+
+.borderFrame {
+    margin-top: 5px;
+    border: 5px solid red;
+    width: 460px;
+    height: 260px;
+}
+
+.col-1 h1 {
+    font-size: 1.5em;
+    font-family: Segoe UI
+}
+    
+.confirmed {
+                width: 200px;
+                height: 20px;
+                font-size: 18px;
+                margin: 2px;
+                background: linear-gradient(to right, #ffff00, #ffd700, #ffff00);
+                border: none;
+                color: #000;
+                border-radius: 10px;
+                text-align: center;
+            }
+ .discharged {
+                width: 200px;
+                height: 20px;
+                font-size: 18px;
+                margin: 2px;
+                background: linear-gradient(to right, #006400, #003300, #006400);
+                border: none;
+                color: white;
+                border-radius: 10px;
+                text-align: center;
+            }
+ .active {
+                width: 200px;
+                height: 20px;
+                font-size: 18px;
+                margin: 2px;
+                background: linear-gradient(to right, #808080, #1a1a1a, #808080);
+                border: none;
+                color: white;
+                border-radius: 10px;
+                text-align: center;
+            }
+
+  .death {
+                width: 200px;
+                height: 20px;
+                font-size: 18px;
+                margin: 2px;
+                background: linear-gradient(to right, #ff3333, #e60000, #ff3333);
+                border: none;
+                color: white;
+                border-radius: 10px;
+                text-align: center;
+            }
+    
+.footer.bottom {
+    background: linear-gradient(to right, #8B0000, #006400, #FFD700, #000);
+    color: #fff;
+    border-top: .02px solid #aab8c2;
+    height: 50px;
+}
+
+foot {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+    
+    .footImg {
+    width: 45px;
+    height: 45px;
+}
+
+.footImg2 {
+    width: 90px;
+    height: 45px;
+}
+    
+.footInfo {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: Poiret One;
+    font-size: 8px;
+/*    line-height: 0.2em;*/
+    padding-top: 10px;
+    width: 100%;
+}
+
+    .footnav1 {
+        display: block;
+        margin-top: -5px;
+        margin-bottom: 25px;
+    }
+    .footnav2 {
+        display: block;   
+    }
+    
+    foot a {
+    text-decoration: none;
+    padding: 3px 3px;
+    color: #fff;
+}
+
+    foot a:hover {
+    text-decoration: none;
+    background-color: #fff;
+    padding: 3px 3px;
+    color: #000;
+    border-radius: 2px;
+}
+    
+}
