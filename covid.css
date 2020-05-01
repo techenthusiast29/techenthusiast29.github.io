@@ -218,7 +218,7 @@ ul.topnav li.dropdownIcon {
 
 
 /*#####MEDIA#####*/
-@media screen and (max-width: 2768px) {
+@media screen and (max-width: px) {
     * {
         margin: 0;
         padding: 0;
